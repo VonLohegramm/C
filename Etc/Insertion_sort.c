@@ -6,10 +6,8 @@ main()
 	int i = 0, j = 0, x = 0;
 	
 	for(i = 0; i < 5; i++)
-	{
 		scanf("%i", &vetor[i]);	
-	}
-	
+
 	for(i = 1; i < 5; i++)
   	{ 
     	x = vetor[i];
@@ -23,8 +21,6 @@ main()
   	}	 
 	   
   	for(i = 0; i < 5; i++)
-	{
 		printf("\n%i", vetor[i]);	
-	}
 	
 }
