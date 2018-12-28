@@ -10,14 +10,14 @@ main()
 
 	for(i = 1; i < 5; i++)
   	{ 
-    	x = vetor[i];
-    	j = i - 1;
-    	while (x < vetor[j])
+		x = vetor[i];
+		j = i - 1;
+		while (x < vetor[j])
 		{
-        	vetor[j+1] = vetor[j];
-        	j--;
-    	}
-    	vetor[j + 1] = x;
+			vetor[j+1] = vetor[j];
+			j--;
+		}
+		vetor[j + 1] = x;
   	}	 
 	   
   	for(i = 0; i < 5; i++)
